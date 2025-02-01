@@ -9,7 +9,7 @@ export default {
     title: 'Olá, eu sou',
     name: 'Emerson Domingos Covane',
     subtitle: 'Desenvolvedor Full Stack',
-    description: 'Transformando ideias em código',
+    description: 'Estudante de Engenharia Informática em Moçambique e programador fullstack, com habilidades em desenvolvimento web (front-end e back-end). Trabalho com tecnologias como React, Node.js, bancos de dados e ferramentas de IA, buscando criar soluções funcionais e eficientes. Foco em código limpo, performance e impacto social, e estou disponível para colaborar em projetos que exijam criatividade e competência técnica.',
     cta: 'Veja meus projetos',
     contact: 'Entre em Contato',
     viewWork: 'Ver Trabalhos',

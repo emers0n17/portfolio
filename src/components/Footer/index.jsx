@@ -112,7 +112,7 @@ function Footer() {
       <ContentWrapper>
         <SocialLinks>
           <a 
-            href={t('home.socialLinks.github')} 
+            href={`https://github.com/emers0n17`} 
             target="_blank" 
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -128,7 +128,7 @@ function Footer() {
             <i className="fab fa-linkedin"></i>
           </a>
           <a 
-            href={`https://instagram.com/${t('home.socialLinks.instagram')}`}
+            href={`https://www.instagram.com/emerson_cov/`}
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
@@ -136,7 +136,7 @@ function Footer() {
             <i className="fab fa-instagram"></i>
           </a>
           <a 
-            href={`mailto:${t('home.socialLinks.email')}`}
+            href={`mailto:emersoncovane23@gmail.com`}
             aria-label="Email"
           >
             <i className="fas fa-envelope"></i>

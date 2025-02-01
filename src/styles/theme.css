@@ -1,0 +1,53 @@
+:root[data-theme="light"] {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f5f5f7;
+  --text-primary: #1d1d1f;
+  --text-secondary: #86868b;
+  --accent: #0066cc;
+  --border-color: #d2d2d7;
+  --bg-gradient: linear-gradient(to bottom, #ffffff, #f5f5f7);
+  --text-gradient: linear-gradient(45deg, #0066cc, #5856d6);
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --text-primary-rgb: 29, 29, 31;
+}
+
+:root[data-theme="dark"] {
+  --bg-primary: #000000;
+  --bg-secondary: #1d1d1f;
+  --text-primary: #f5f5f7;
+  --text-secondary: #86868b;
+  --accent: #2997ff;
+  --border-color: #424245;
+  --bg-gradient: linear-gradient(to bottom, #000000, #1d1d1f);
+  --text-gradient: linear-gradient(45deg, #2997ff, #5856d6);
+  --glass-bg: rgba(29, 29, 31, 0.7);
+  --text-primary-rgb: 245, 245, 247;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+main {
+  padding-top: 80px;
+}
+
+.section {
+  padding: 5rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+} 
